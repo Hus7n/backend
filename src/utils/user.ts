@@ -1,4 +1,3 @@
-import { tr } from "zod/v4/locales";
 import type { SafeUser , UserRecord } from "../types/user.js";
 export function isUserActive(user : Pick<UserRecord ,"is_active">){
     return user.is_active === true;

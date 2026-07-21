@@ -1,6 +1,5 @@
-import { ca, fa } from "zod/v4/locales";
 import { env } from "../config/env.js";
-import { error } from "node:console";
+
 export type ErrorCode = 
 | "BAD_REQUEST"
 | "UNAUTHORIZED"

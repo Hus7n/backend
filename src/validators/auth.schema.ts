@@ -1,5 +1,4 @@
-import { token } from "morgan";
-import { email, z } from "zod";
+import { z } from "zod";
 
 export const registerSchema = z.object({
     email : z.string().email(),

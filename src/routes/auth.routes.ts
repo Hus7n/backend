@@ -15,3 +15,4 @@ authRouter.get("/token-info" , authenticate , authController.tokenInfo);
 
 authRouter.get("/verify-email" , authController.verifyEmail);
 authRouter.get("/reset-password" , authController.resetPassword);
+authRouter.get("/forgot-password", authController.forgotPassword);

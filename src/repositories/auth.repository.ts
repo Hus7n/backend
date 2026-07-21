@@ -1,4 +1,3 @@
-import { createHash } from "crypto";
 import {pool , query} from "../db.js";
 import type {UserRole} from "../types/user.js";
 

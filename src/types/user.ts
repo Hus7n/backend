@@ -1,5 +1,10 @@
 export type UserRole = "admin" | "interviewer" | "candidate";
 
+export type AuthUser = {
+    userId : string;
+    role : UserRole;
+};
+
 export type UserRecord = {
     id : string ;
     email : string ;
