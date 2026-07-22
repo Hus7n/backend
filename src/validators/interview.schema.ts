@@ -12,7 +12,7 @@ const scheduledAtSchema = z.coerce.date();
 
 export const CreateInterviewSchema = z.object({
     title : z.string().trim().min(3).max(150),
-    decription : z.string().trim().max(2000).optional().nullable(),
+    description : z.string().trim().max(2000).optional().nullable(),
     scheduled_at : scheduledAtSchema,
     duration_minutes : z.coerce.number().int().min(15).max(480),
     language : z.string().trim().min(1).max(50),
